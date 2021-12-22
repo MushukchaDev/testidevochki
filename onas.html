@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -24,15 +24,15 @@
 					</a>
 
 					<a href="onas.html" class="navbar-item">
-						Насколько ты киноман?
+						Тест1
 					</a>
 
-					<a href="test2.html" class="navbar-item">
-						Насколько развита ваша интуиция?
+					<a href="uslugi.html" class="navbar-item">
+						Тест2
 					</a>
 
-					<a href="test3.html" class="navbar-item">
-						Встретишь ли ты свою любовь в Новом Году?
+					<a href="zapis.html" class="navbar-item">
+						Тест3
 					</a>
 				</div>
 			</div>
@@ -226,12 +226,11 @@
 								<input id="a4q8" type="radio" name="radio7" value="4">
 								<label for="a4q8">Берлин</label>
 							</div>
-							<button class="button is-warning" onclick="check()">Проверить</button>
 						</div>
 					</div>
 					
 				</div>
-				
+				<button class="button is-warning" onclick="check()">Проверить</button>
 
 				</div>
 			</div>
@@ -273,15 +272,9 @@
 		}
 
 
-        if ((ball == 8) || (ball == 7) || (ball == 6)){
+		if (ball == 8) {
 			document.location.href = "answer1test1.html";
 		}
-        if ((ball == 5) || (ball == 4)) {
-            document.location.href = "answer2test1.html";
-		}
-        if ((ball == 3) || (ball == 2) || (ball == 1) || (ball == 0)){
-            document.location.href = "answer3test1.html";
-        }
 	}
 </script>
 
@@ -313,11 +306,17 @@
 		padding: 10px;
 	}
     .columns {
-        background: #ffe;  Цвет фона 
-        border: 1px solid #333;  Параметры рамки 
+        position: fixed; /* Фиксированное положение */
+        right: 700px; /* Расстояние от правого края окна браузера */
+        top: 10%; /* Расстояние сверху */
+        padding: 10px; /* Поля вокруг текста */
+        background: #ffe; /* Цвет фона */
+        border: 1px solid #333; /* Параметры рамки */
     }
-    .radio {
-        color: #ADFF2F;
+    .button {
+        position: fixed;
+        top: 590px;
+        left: 1060px;
     }
 </style>
 </html>
