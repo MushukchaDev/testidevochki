@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -23,15 +23,15 @@
 					</a>
 
 					<a href="onas.html" class="navbar-item">
-						Тест1
+						Насколько ты киноман?
 					</a>
 
-					<a href="uslugi.html" class="navbar-item">
-						Тест2
+					<a href="test2.html" class="navbar-item">
+						Насколько развита Ваша интуиция?
 					</a>
 
-					<a href="zapis.html" class="navbar-item">
-						Тест3
+					<a href="test3.html" class="navbar-item">
+						Встретишь ли ты свою любовь в Новом Году?
 					</a>
 				</div>
 			</div>
@@ -47,7 +47,9 @@
 					Тесты применяются практически во всех сферах. Это аттестация, образование, сертификация, психология, подбор персонала на предприятии и т. п.
 					Тестирование позволяет за короткий срок проверить человека на большой объем знаний, качественно и точно оценив его.
 				</p>
-				<button class="button is-success is-light">Начать первый тест!</button>
+				<button class="button is-success is-light" onclick="goToPage()">Начать первый тест!</button>
+				<button class="button is-success is-light" onclick="perehod()">Начать второй тест!</button>
+				<button class="button is-success is-light" onclick="perehod2()">Начать третий тест!</button>
 				<i class="fa fa-vk" aria-hidden="true"></i>
 			</div>
 			<div class="column">
@@ -58,6 +60,18 @@
 			
 	</section>
 </body>
+<script>
+	function goToPage() {
+		document.location.href = "onas.html";
+	}
+    function perehod() {
+        document.location.href = "test2.html";
+	}
+    function perehod2() {
+        document.location.href = "test3.html";
+    }
+</script>
+</script>
 <style>
 	#olga {
 		text-align: right;

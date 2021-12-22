@@ -22,15 +22,15 @@
                     </a>
 
                     <a href="onas.html" class="navbar-item">
-                        Тест1
+                        Насколько ты киноман?
                     </a>
 
-                    <a href="uslugi.html" class="navbar-item">
-                        Тест2
+                    <a href="test2.html" class="navbar-item">
+                        Насколько развита Ваша интуиция?
                     </a>
 
-                    <a href="zapis.html" class="navbar-item">
-                        Тест3
+                    <a href="test3.html" class="navbar-item">
+                        Встретишь ли ты свою любовь в Новом Году?
                     </a>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                     Ты как рыбе в воде в сфере кино! Просто умница, ты набрал большое количество баллов!
                 </p>
                 
-                <button href="onas.html" class="button is-success is-light">Пройти тест заново!</button>
+                <button class="button is-success is-light" onclick="perehod()">Пройти тест заново!</button>
             </div>
             <div class="column">
 
@@ -52,6 +52,11 @@
 
     </section>
 </body>
+<script>
+    function perehod() {
+        document.location.href = "onas.html";
+    }
+</script>
 <style>
     #olga {
         text-align: right;
